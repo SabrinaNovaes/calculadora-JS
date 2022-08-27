@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FEAC5E;
+    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E); 
+    background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+    ;
+}
+
+h1{
+    font-family: Courgette, sans-serif;
+    padding: 10px;
+}
+
+input{
+    padding: 5px 10px;
+    margin: 10px 0;
+    width: 300;
+    text-align: right;
+    border-radius: 10px;
+    border: none;
+}
+
+select{
+    padding: 5px 10px;
+    margin: 10px 0;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+option{
+    border-radius: 10px;
+}
